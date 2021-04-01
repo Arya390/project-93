@@ -1,17 +1,16 @@
 var firebaseConfig = {
-    apiKey: "AIzaSyCn5ze3pbp4qkg5WZrTxQAPIi2i-Zx9fQM",
-    authDomain: "chat-app-7bd56.firebaseapp.com",
-    databaseURL: "https://chat-app-7bd56.firebaseio.com",
-    projectId: "chat-app-7bd56",
-    storageBucket: "chat-app-7bd56.appspot.com",
-    messagingSenderId: "123235561290",
-    appId: "1:123235561290:web:29d0624c09d2664bf35bb3",
-    measurementId: "G-NWQGD29YSZ"
+    apiKey: "AIzaSyC8PqtB200SjXtvmLZScEG-hgaiigjRMTw",
+    authDomain: "lets-chat-3869d.firebaseapp.com",
+    databaseURL: "https://lets-chat-3869d-default-rtdb.firebaseio.com",
+    projectId: "lets-chat-3869d",
+    storageBucket: "lets-chat-3869d.appspot.com",
+    messagingSenderId: "297015450683",
+    appId: "1:297015450683:web:8b3b49256405da7c44d01e",
+    measurementId: "G-34020NYN7W"
   };
-
-  
+  // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-  firebase.analytics();
+
   
 user_name = localStorage.getItem("user_name");
 document.getElementById("user_name").innerHTML = "";
